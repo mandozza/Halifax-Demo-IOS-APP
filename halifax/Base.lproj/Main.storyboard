@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="halifax" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,188 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="halifax1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GkM-6r-rCe">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="CANADA'S" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="28X-Z0-XhG">
+                                <rect key="frame" x="27" y="28" width="558" height="49"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="37"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="0.0" height="-3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="ATLANTIC PLAYGROUND" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cRf-2r-h3U">
+                                <rect key="frame" x="27" y="69" width="563" height="49"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="37"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="0.0" height="-4"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="HALIFAX" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L7T-fB-T75">
+                                <rect key="frame" x="27" y="137" width="563" height="49"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-CondensedBold" family="Helvetica Neue" pointSize="70"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="0.0" height="-4"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="NOVA SCOTIA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFO-wg-A6x">
+                                <rect key="frame" x="27" y="189" width="553" height="49"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="37"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="0.0" height="-4"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Fb-Lv-9H9">
+                                <rect key="frame" x="181" y="506" width="244" height="36"/>
+                                <color key="backgroundColor" red="0.93333333330000001" green="0.37254901959999998" blue="0.18039215689999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="36" id="5x3-la-Xoc"/>
+                                    <constraint firstAttribute="width" constant="244" id="qJz-LG-yN7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <size key="titleShadowOffset" width="1" height="1"/>
+                                <state key="normal" title="Find Out More">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.50196081400000003" green="0.0" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="F8o-0q-gt4" kind="show" id="DNV-na-URp"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="GkM-6r-rCe" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="1tN-Ep-IEM"/>
+                            <constraint firstItem="28X-Z0-XhG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="8j8-YN-kYs"/>
+                            <constraint firstItem="gFO-wg-A6x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="Bd4-AN-U8w"/>
+                            <constraint firstItem="1Fb-Lv-9H9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DOu-Ub-9gR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="1Fb-Lv-9H9" secondAttribute="bottom" constant="58" id="E9y-6v-frH"/>
+                            <constraint firstItem="28X-Z0-XhG" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Hi7-Fj-O63"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GkM-6r-rCe" secondAttribute="bottom" id="Lb6-le-TB4"/>
+                            <constraint firstItem="L7T-fB-T75" firstAttribute="top" secondItem="cRf-2r-h3U" secondAttribute="bottom" constant="19" id="NMO-0x-uhC"/>
+                            <constraint firstItem="gFO-wg-A6x" firstAttribute="top" secondItem="L7T-fB-T75" secondAttribute="bottom" constant="3" id="Tqk-eH-p9e"/>
+                            <constraint firstItem="GkM-6r-rCe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Yh0-fi-R3U"/>
+                            <constraint firstAttribute="trailing" secondItem="GkM-6r-rCe" secondAttribute="trailing" id="bIP-Bk-lVO"/>
+                            <constraint firstItem="cRf-2r-h3U" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="qp9-YD-vnQ"/>
+                            <constraint firstItem="L7T-fB-T75" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="tpT-aZ-4VC"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnFindOutMore" destination="1Fb-Lv-9H9" id="RpR-zF-nHB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="245" y="337"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="4r0-aH-t61">
+            <objects>
+                <viewController id="F8o-0q-gt4" customClass="DetailViewController" customModule="halifax" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ypb-09-JAt"/>
+                        <viewControllerLayoutGuide type="bottom" id="TWz-xj-Oed"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hWV-SK-dGg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="halifax2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wBn-4S-nlX">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="234"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="234" id="Yfw-bF-x4h"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Halifax" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MGa-cC-sVo">
+                                <rect key="frame" x="132" y="123" width="336" height="79"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="336" id="Gw9-D3-4nm"/>
+                                    <constraint firstAttribute="height" constant="79" id="gmE-a3-289"/>
+                                    <constraint firstAttribute="height" constant="79" id="ph6-Fk-VKk"/>
+                                    <constraint firstAttribute="width" constant="160" id="s8F-S4-rcq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="31"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <size key="shadowOffset" width="0.0" height="-3"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="gmE-a3-289"/>
+                                        <exclude reference="s8F-S4-rcq"/>
+                                    </mask>
+                                </variation>
+                            </label>
+                            <button opaque="NO" alpha="0.40000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C1p-GV-HFM">
+                                <rect key="frame" x="32" y="33" width="86" height="45"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="9Lo-5O-K6X"/>
+                                    <constraint firstAttribute="width" constant="86" id="Kni-d9-6sk"/>
+                                </constraints>
+                                <state key="normal" title="Back">
+                                    <color key="titleColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnBack:" destination="F8o-0q-gt4" eventType="touchUpInside" id="rBA-hV-53U"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="21" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mUk-x0-8gl">
+                                <rect key="frame" x="20" y="311" width="560" height="252"/>
+                                <mutableString key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam molestie porttitor lectus, a vehicula tellus efficitur at. Duis convallis convallis dictum. Nulla tellus tellus, blandit sit amet purus sed, luctus ornare nisi. In condimentum, lacus vitae auctor dignissim, risus metus bibendum enim, sit amet egestas metus lacus ut arcu. Cras volutpat nibh sed nibh ullamcorper, ut hendrerit enim fermentum. Suspendisse elementum, lectus sed viverra sagittis, elit enim congue ipsum, eu auctor nulla ipsum ac eros. Cras tempus metus velit. Ut maximus faucibus diam nec commodo. Donec enim felis, sagittis venenatis urna sit amet, viverra bibendum ante.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="wBn-4S-nlX" secondAttribute="trailing" id="63i-bp-qpC"/>
+                            <constraint firstItem="mUk-x0-8gl" firstAttribute="leading" secondItem="hWV-SK-dGg" secondAttribute="leading" constant="20" id="6bP-Cw-VCe"/>
+                            <constraint firstItem="C1p-GV-HFM" firstAttribute="top" secondItem="ypb-09-JAt" secondAttribute="bottom" constant="13" id="8qg-Qy-jkR"/>
+                            <constraint firstItem="wBn-4S-nlX" firstAttribute="top" secondItem="hWV-SK-dGg" secondAttribute="top" id="98z-0G-6mN"/>
+                            <constraint firstAttribute="trailing" secondItem="mUk-x0-8gl" secondAttribute="trailing" constant="20" id="9CE-xw-bUL"/>
+                            <constraint firstItem="C1p-GV-HFM" firstAttribute="leading" secondItem="hWV-SK-dGg" secondAttribute="leading" constant="32" id="Awg-au-TVm"/>
+                            <constraint firstItem="mUk-x0-8gl" firstAttribute="leading" secondItem="hWV-SK-dGg" secondAttribute="leadingMargin" id="EWj-z1-1de"/>
+                            <constraint firstItem="MGa-cC-sVo" firstAttribute="centerX" secondItem="hWV-SK-dGg" secondAttribute="centerX" id="FZS-3W-45e"/>
+                            <constraint firstItem="wBn-4S-nlX" firstAttribute="leading" secondItem="hWV-SK-dGg" secondAttribute="leading" id="GL4-94-7an"/>
+                            <constraint firstItem="MGa-cC-sVo" firstAttribute="centerX" secondItem="hWV-SK-dGg" secondAttribute="centerX" id="GfV-rQ-YHM"/>
+                            <constraint firstItem="MGa-cC-sVo" firstAttribute="top" secondItem="ypb-09-JAt" secondAttribute="bottom" constant="103" id="ISY-fr-gUf"/>
+                            <constraint firstItem="wBn-4S-nlX" firstAttribute="top" secondItem="hWV-SK-dGg" secondAttribute="top" id="Juu-r7-nA4"/>
+                            <constraint firstItem="C1p-GV-HFM" firstAttribute="leading" secondItem="hWV-SK-dGg" secondAttribute="leading" constant="32" id="On0-CU-ycQ"/>
+                            <constraint firstItem="mUk-x0-8gl" firstAttribute="top" secondItem="wBn-4S-nlX" secondAttribute="bottom" constant="77" id="Ret-HG-e0T"/>
+                            <constraint firstAttribute="trailing" secondItem="wBn-4S-nlX" secondAttribute="trailing" id="UcP-2n-fy9"/>
+                            <constraint firstItem="mUk-x0-8gl" firstAttribute="trailing" secondItem="hWV-SK-dGg" secondAttribute="trailingMargin" id="b7S-i2-9E5"/>
+                            <constraint firstItem="MGa-cC-sVo" firstAttribute="top" secondItem="ypb-09-JAt" secondAttribute="bottom" constant="41" id="c9F-zU-PuX"/>
+                            <constraint firstItem="C1p-GV-HFM" firstAttribute="top" secondItem="ypb-09-JAt" secondAttribute="bottom" constant="13" id="fZO-Bw-gLe"/>
+                            <constraint firstItem="mUk-x0-8gl" firstAttribute="top" secondItem="wBn-4S-nlX" secondAttribute="bottom" constant="14" id="oKp-sb-wPh"/>
+                            <constraint firstItem="wBn-4S-nlX" firstAttribute="leading" secondItem="hWV-SK-dGg" secondAttribute="leading" id="oPJ-wu-mYX"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="c9F-zU-PuX"/>
+                                <exclude reference="oKp-sb-wPh"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="btnBack" destination="C1p-GV-HFM" id="nur-3d-GdU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XfG-z1-G35" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="885" y="337"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="halifax1.jpg" width="2000" height="1000"/>
+        <image name="halifax2.jpg" width="1800" height="1200"/>
+    </resources>
 </document>

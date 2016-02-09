@@ -12,6 +12,10 @@
 		3F9018C31C6944EC00482714 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9018C11C6944EC00482714 /* Main.storyboard */; };
 		3F9018C51C6944EC00482714 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F9018C41C6944EC00482714 /* Assets.xcassets */; };
 		3F9018C81C6944EC00482714 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F9018C61C6944EC00482714 /* LaunchScreen.storyboard */; };
+		3F9018D01C69450C00482714 /* halifax1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9018CF1C69450C00482714 /* halifax1.jpg */; };
+		3F9018D21C69451600482714 /* halifax2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F9018D11C69451600482714 /* halifax2.jpg */; };
+		3F9018D41C69452900482714 /* compass-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F9018D31C69452900482714 /* compass-icon.png */; };
+		3F9018DB1C694EA300482714 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F9018DA1C694EA300482714 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		3F9018C41C6944EC00482714 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F9018C71C6944EC00482714 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F9018C91C6944EC00482714 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F9018CF1C69450C00482714 /* halifax1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = halifax1.jpg; sourceTree = "<group>"; };
+		3F9018D11C69451600482714 /* halifax2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = halifax2.jpg; sourceTree = "<group>"; };
+		3F9018D31C69452900482714 /* compass-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "compass-icon.png"; sourceTree = "<group>"; };
+		3F9018DA1C694EA300482714 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +65,23 @@
 				3F9018BD1C6944EC00482714 /* AppDelegate.swift */,
 				3F9018BF1C6944EC00482714 /* ViewController.swift */,
 				3F9018C11C6944EC00482714 /* Main.storyboard */,
+				3F9018D51C69453D00482714 /* photos */,
 				3F9018C41C6944EC00482714 /* Assets.xcassets */,
 				3F9018C61C6944EC00482714 /* LaunchScreen.storyboard */,
 				3F9018C91C6944EC00482714 /* Info.plist */,
+				3F9018DA1C694EA300482714 /* DetailViewController.swift */,
 			);
 			path = halifax;
+			sourceTree = "<group>";
+		};
+		3F9018D51C69453D00482714 /* photos */ = {
+			isa = PBXGroup;
+			children = (
+				3F9018CF1C69450C00482714 /* halifax1.jpg */,
+				3F9018D31C69452900482714 /* compass-icon.png */,
+				3F9018D11C69451600482714 /* halifax2.jpg */,
+			);
+			name = photos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +143,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F9018C81C6944EC00482714 /* LaunchScreen.storyboard in Resources */,
+				3F9018D01C69450C00482714 /* halifax1.jpg in Resources */,
 				3F9018C51C6944EC00482714 /* Assets.xcassets in Resources */,
+				3F9018D41C69452900482714 /* compass-icon.png in Resources */,
+				3F9018D21C69451600482714 /* halifax2.jpg in Resources */,
 				3F9018C31C6944EC00482714 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +158,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F9018DB1C694EA300482714 /* DetailViewController.swift in Sources */,
 				3F9018C01C6944EC00482714 /* ViewController.swift in Sources */,
 				3F9018BE1C6944EC00482714 /* AppDelegate.swift in Sources */,
 			);
